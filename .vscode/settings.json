@@ -1,0 +1,11 @@
+{
+    "go.autocompleteUnimportedPackages": true,
+    "go.buildOnSave": "workspace",
+    "go.coverOnSave": true,
+    "go.useLanguageServer": true,
+    "go.toolsGopath": "/Users/ss670121/sourcebox/learn/ws",
+    "go.formatTool": "gofmt",
+    "go.gopath": "${env:GOPATH}",
+    "go.goroot": "/usr/local/go",
+    "go.lintOnSave": "workspace"
+}
