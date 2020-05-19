@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "firstName": "Saurabh",
+        "middleName": "",
+        "lastName": "Sharma",
+        "email": "saurabh@samarthya.me",
+        "address": "Auzzieland"
+    },
+    {
+        "id": 2,
+        "firstName": "Gaurav",
+        "middleName": "M",
+        "lastName": "Sharma",
+        "email": "iam@gaurav.me",
+        "address": "Swaziland"
+    },
+    {
+        "id": 3,
+        "firstName": "Bhanuni",
+        "middleName": "",
+        "lastName": "Sharma",
+        "email": "bhanuni@bhanuni.in",
+        "address": "Papaland"
+    }
+]

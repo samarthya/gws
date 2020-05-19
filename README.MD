@@ -14,7 +14,7 @@ It is a pet project where I a going to write my first web service in GoLang
 
 ### Overview
 
-- Go programmers typically keep all their Go code in a single workspace.
+- Go programmers typically keep all their Go code in aAS single workspace.
 - A workspace contains many version control repositories (managed by Git, for example).
 - Each repository contains one or more packages.
 - Each package consists of one or more Go source files in a single directory.

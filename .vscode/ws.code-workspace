@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"go.lintOnSave": "file",
+		"go.formatTool": "goimports",
+		"go.inferGopath": true,
+		"go.useLanguageServer": true
+	}
+}
