@@ -12,6 +12,7 @@ func (h *CountHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	h.Lock()
 	defer h.Unlock()
 	h.n++
+	w.Header().Add("Content-Type", "text/plain")
 	fmt.Fprintf(w, "count is %d\n", h.n)
 }
 

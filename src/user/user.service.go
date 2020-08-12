@@ -25,6 +25,8 @@ func SetupService(basePath string) {
 func HandleUsers(w http.ResponseWriter, r *http.Request) {
 	// Handlers can handle request with multiple request methods.
 	// Every request has a method a simple string
+	w.Header().Add("X-Custom-Server", "golang")
+	w.Header().Add("X-Docker-Server", "true")
 	switch r.Method {
 	case http.MethodGet:
 		log.Println(" GET: called")

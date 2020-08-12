@@ -8,8 +8,8 @@
             "name": "Launch",
             "type": "go",
             "request": "launch",
-            "mode": "auto",
-            "program": "${workspaceFolder}/src/server.go",
+            "mode": "debug",
+            "program": "${workspaceFolder}/src",
             "env": {},
             "args": []
         }

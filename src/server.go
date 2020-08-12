@@ -4,6 +4,9 @@ import (
 	"fmt"
 	"log"
 	"net/http"
+
+	"github.com/samarthya/counter"
+	"github.com/samarthya/user"
 )
 
 // PathAPI API path to be used as base
@@ -13,8 +16,10 @@ const PathAPI string = "/api"
 func main() {
 	fmt.Printf(" Webservice.\n")
 
-	users.SetupService(PathAPI)
+	counter.SetupCountRoute(PathAPI)
+	user.SetupService(PathAPI)
 
 	// http.HandleFunc("/users", handleUsers)
+	log.Printf(" Listening on 8090....")
 	log.Fatal(http.ListenAndServe(":8090", nil))
 }

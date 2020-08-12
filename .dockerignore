@@ -1,0 +1,8 @@
+# ignore files
+.git
+.gitignore
+.vscode
+*.md
+./pkg
+gqs.code-workspace
+.dockerginore

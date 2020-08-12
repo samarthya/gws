@@ -19,3 +19,13 @@ It is a pet project where I a going to write my first web service in GoLang
 - Each repository contains one or more packages.
 - Each package consists of one or more Go source files in a single directory.
 - The path to a package's directory determines its import path.
+
+## Docker file
+
+First version created an image of 846 MB
+
+```
+REPOSITORY                           TAG                                              IMAGE ID            CREATED             SIZE
+samarthya/serviceingo                v1.0                                             d2c8ab2eace1        4 minutes ago       846MB
+```
+
